@@ -25,17 +25,17 @@ public class Conexion {
 
     public Conexion() {
         try {
-            //obtenemos el driver de para mysql
-//            Class.forName("com.mysql.jdbc.Driver");
-//            conn = DriverManager.getConnection(this.urlMysql, this.user, this.password);
+//            //obtenemos el driver de para mysql
+            Class.forName("com.mysql.jdbc.Driver");
+            conn = DriverManager.getConnection(this.urlMysql, this.user, this.password);
 
             //Conexion a SQL Server
             // obtenemos el driver de para SQL Server
-            Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection(this.urlMysql,this.user,this.password);
-            /*if (conn != null) {
+//            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+//            conn = DriverManager.getConnection(urlSql);
+            if (conn != null) {
                 System.out.println("Conexión a la base de datos " + this.db + "...... Listo ");
-            }*/
+            }
         } catch (ClassNotFoundException | SQLException ex) {
             System.out.println("Error : " + ex);
         }

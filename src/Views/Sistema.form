@@ -152,7 +152,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Resources/Babilonia (1).png"/>
+              <Image iconType="3" name="/Resources/logo-google.png"/>
             </Property>
           </Properties>
         </Component>
@@ -482,7 +482,7 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jScrollPane15" alignment="1" pref="850" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane15" alignment="1" pref="804" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <Component id="jLabel45" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
@@ -612,8 +612,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Liista d clientes">
-                            <Property name="tabTitle" type="java.lang.String" value="Liista d clientes"/>
+                          <JTabbedPaneConstraints tabName="Lista de clientes">
+                            <Property name="tabTitle" type="java.lang.String" value="Lista de clientes"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -621,7 +621,7 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <EmptySpace min="0" pref="874" max="32767" attributes="0"/>
+                              <EmptySpace min="0" pref="816" max="32767" attributes="0"/>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
@@ -2526,7 +2526,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane1" pref="833" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane1" pref="804" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -2685,7 +2685,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jScrollPane2" pref="802" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane2" pref="790" max="32767" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -3363,7 +3363,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane3" pref="833" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane3" pref="804" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -4602,7 +4602,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane7" pref="850" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane7" pref="804" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -4761,7 +4761,7 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jScrollPane8" pref="819" max="32767" attributes="0"/>
+                                          <Component id="jScrollPane8" pref="790" max="32767" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
@@ -4915,7 +4915,7 @@
                                                   <Component id="labelProveedor_Saldo" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="jLabel30" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="labelProveedor_TicketDeuda" alignment="0" max="32767" attributes="0"/>
-                                                  <Component id="labelProveedor_FormaPagos" alignment="0" pref="137" max="32767" attributes="0"/>
+                                                  <Component id="labelProveedor_FormaPagos" alignment="0" pref="127" max="32767" attributes="0"/>
                                                   <Component id="labelProveedor_MesCuotas" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="jLabel32" alignment="0" max="32767" attributes="0"/>
                                                   <Component id="labelProveedor_Cambio" alignment="0" max="32767" attributes="0"/>
@@ -5480,7 +5480,7 @@
                               <Group type="102" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jScrollPane10" alignment="0" pref="850" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane10" alignment="0" pref="804" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Component id="CheckBoxCompra_Creditos" min="-2" pref="96" max="-2" attributes="0"/>
                                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -6462,7 +6462,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane11" pref="849" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane11" pref="803" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -6533,7 +6533,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane12" pref="849" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane12" pref="803" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -7372,7 +7372,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane13" pref="850" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane13" pref="804" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -7443,7 +7443,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane14" pref="850" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane14" pref="804" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -8615,7 +8615,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jScrollPane4" pref="850" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane4" pref="804" max="32767" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -8888,7 +8888,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jPanel17" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="938" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -8897,7 +8897,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="jPanel17" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="168" max="32767" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -8956,8 +8956,11 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Dialog" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="DLL"/>
+                            <Property name="text" type="java.lang.String" value="DLL."/>
                           </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RadioButton_DolarActionPerformed"/>
+                          </Events>
                         </Component>
                         <Component class="javax.swing.JRadioButton" name="RadioButton_Lempira">
                           <Properties>
@@ -8967,7 +8970,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Dialog" size="14" style="1"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="MX"/>
+                            <Property name="text" type="java.lang.String" value="MX."/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RadioButton_LempiraActionPerformed"/>
@@ -9001,8 +9004,8 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                      <JTabbedPaneConstraints tabName="Registros de intereses">
-                        <Property name="tabTitle" type="java.lang.String" value="Registros de intereses"/>
+                      <JTabbedPaneConstraints tabName="Informacion ">
+                        <Property name="tabTitle" type="java.lang.String" value="Informacion "/>
                       </JTabbedPaneConstraints>
                     </Constraint>
                   </Constraints>
@@ -9012,17 +9015,51 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="869" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace pref="776" max="32767" attributes="0"/>
+                                      <Component id="LabelConfig_MsjIntereses" min="-2" pref="11" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="LabelConfig_Intereses" min="-2" pref="0" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="RadioButtonConfig_Intereses" min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="TextFieldConfig_Intereses" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="LabelConfig_MsjIntereses" min="-2" pref="1" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="LabelConfig_Intereses" min="-2" pref="3" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                              <Component id="RadioButtonConfig_Intereses" min="-2" pref="0" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="TextFieldConfig_Intereses" min="-2" pref="17" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel22" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="160" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -9044,20 +9081,9 @@
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="LabelConfig_MsjIntereses" min="-2" pref="163" max="-2" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="TextFieldConfig_Intereses" min="-2" pref="163" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="ButtonConfig_AddIntereses" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="LabelConfig_Intereses" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="RadioButtonConfig_Intereses" alignment="0" pref="113" max="32767" attributes="0"/>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace pref="157" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="ButtonConfig_AddIntereses" min="-2" pref="0" max="-2" attributes="0"/>
+                                  <EmptySpace pref="237" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -9065,33 +9091,13 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="TextFieldConfig_Intereses" max="32767" attributes="0"/>
-                                      <Component id="ButtonConfig_AddIntereses" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                                  <Component id="LabelConfig_MsjIntereses" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="RadioButtonConfig_Intereses" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="LabelConfig_Intereses" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace pref="154" max="32767" attributes="0"/>
+                                  <Component id="ButtonConfig_AddIntereses" min="-2" pref="17" max="-2" attributes="0"/>
+                                  <EmptySpace pref="234" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
                       </Layout>
                       <SubComponents>
-                        <Component class="javax.swing.JTextField" name="TextFieldConfig_Intereses">
-                          <Properties>
-                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Dialog" size="14" style="0"/>
-                            </Property>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TextFieldConfig_InteresesKeyReleased"/>
-                            <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TextFieldConfig_InteresesKeyTyped"/>
-                          </Events>
-                        </Component>
                         <Component class="javax.swing.JButton" name="ButtonConfig_AddIntereses">
                           <Properties>
                             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
@@ -9109,26 +9115,37 @@
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonConfig_AddInteresesActionPerformed"/>
                           </Events>
                         </Component>
-                        <Component class="javax.swing.JLabel" name="LabelConfig_Intereses">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Intereses"/>
-                          </Properties>
-                        </Component>
-                        <Component class="javax.swing.JRadioButton" name="RadioButtonConfig_Intereses">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Intereses"/>
-                          </Properties>
-                          <Events>
-                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RadioButtonConfig_InteresesActionPerformed"/>
-                          </Events>
-                        </Component>
-                        <Component class="javax.swing.JLabel" name="LabelConfig_MsjIntereses">
-                          <Properties>
-                            <Property name="text" type="java.lang.String" value="Mensaje"/>
-                          </Properties>
-                        </Component>
                       </SubComponents>
                     </Container>
+                    <Component class="javax.swing.JTextField" name="TextFieldConfig_Intereses">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Dialog" size="14" style="0"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TextFieldConfig_InteresesKeyReleased"/>
+                        <EventHandler event="keyTyped" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="TextFieldConfig_InteresesKeyTyped"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JRadioButton" name="RadioButtonConfig_Intereses">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Intereses"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RadioButtonConfig_InteresesActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="LabelConfig_Intereses">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Intereses"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JLabel" name="LabelConfig_MsjIntereses">
+                      <Properties>
+                        <Property name="text" type="java.lang.String" value="Mensaje"/>
+                      </Properties>
+                    </Component>
                   </SubComponents>
                 </Container>
               </SubComponents>

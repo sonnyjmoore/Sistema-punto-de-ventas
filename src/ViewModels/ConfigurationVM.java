@@ -56,10 +56,10 @@ public class ConfigurationVM extends Consult {
 
     private void RadioEvent() {
         _radio.get(0).addActionListener((ActionEvent e) -> {
-            TypeMoney("L.", _radio.get(0).isSelected());
+            TypeMoney("MX.", _radio.get(0).isSelected());
         });
         _radio.get(1).addActionListener((ActionEvent e) -> {
-            TypeMoney("$", _radio.get(1).isSelected());
+            TypeMoney("DLL", _radio.get(1).isSelected());
         });
     }
     private String sqlConfig;
@@ -71,7 +71,7 @@ public class ConfigurationVM extends Consult {
         final QueryRunner qr = new QueryRunner(true);
 
         if (config.isEmpty()) {
-            Mony = "L.";
+            Mony = "MX.";
             Object[] dataConfig = {Mony};
             try {
                 qr.insert(getConn(), sqlConfig, new ColumnListHandler(), dataConfig);
@@ -81,10 +81,10 @@ public class ConfigurationVM extends Consult {
             TConfiguration data = config.get(0);
             Mony = data.getTypeMoney();
             switch (Mony) {
-                case "L.":
+                case "MX.":
                     _radio.get(0).setSelected(true);
                     break;
-                case "$":
+                case "DLL":
                     _radio.get(1).setSelected(true);
                     break;
             }
