@@ -405,7 +405,7 @@ public class VentasVM extends Objectos {
             _label.get(4).setForeground(new Color(102, 102, 102));
             ingresosTotales += data;
         } else {
-            _label.get(4).setText(_mony + "0.00");
+            _label.get(4).setText(_mony + "0.05");
             _label.get(4).setForeground(Color.RED);
         }
         _label.get(5).setText(_mony + _format.decimal(ingresosTotales));

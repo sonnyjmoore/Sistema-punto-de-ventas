@@ -1,0 +1,29 @@
+[33mcommit ccbdba1c045ff978565472cb2ca98ba29b7423a7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: sonnyjmoore <andresdelrio7667@gmail.com>
+Date:   Thu Apr 28 09:31:37 2022 -0500
+
+    Se soluccionar errores, falta validar el login y venta
+
+[33mcommit 2f177d800b2e50694e87c1b787defa718bf2fd2f[m
+Author: sonnyjmoore <andresdelrio7667@gmail.com>
+Date:   Tue Apr 26 09:18:00 2022 -0500
+
+    Se agregan usuarios, proveedores  y se termina la interfaz
+
+[33mcommit 60e847cc5b3300576625636d8c1bf7ba8a8ccbce[m
+Author: sonnyjmoore <le21450049@itz.edu.mx>
+Date:   Tue Apr 5 08:50:28 2022 -0500
+
+    Se agrega un mensaje para probar
+
+[33mcommit 9d7483bfdf44f299c1aaca74ee158411197d5127[m
+Author: sonnyjmoore <le21450049@itz.edu.mx>
+Date:   Tue Apr 5 08:24:47 2022 -0500
+
+    Se agrega el proyecto
+
+[33mcommit 0b805f9e3e127a97bacbb93ffb1c81abe89a707a[m
+Author: sonnyjmoore <103046395+sonnyjmoore@users.noreply.github.com>
+Date:   Tue Apr 5 08:07:52 2022 -0500
+
+    Initial commit

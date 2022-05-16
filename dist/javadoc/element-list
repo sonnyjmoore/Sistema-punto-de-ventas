@@ -1,0 +1,14 @@
+Conexion
+Library
+Models
+Models.Caja
+Models.Cliente
+Models.Compra
+Models.Ordenador
+Models.Producto
+Models.Proveedor
+Models.Usuario
+Models.Venta
+sistema.punto.de.ventas
+ViewModels
+Views

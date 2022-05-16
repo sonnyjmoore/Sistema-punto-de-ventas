@@ -146,6 +146,7 @@ public class Sistema extends javax.swing.JFrame {
         ButtonVentas_Paginas3 = new javax.swing.JButton();
         ButtonVentas_Paginas4 = new javax.swing.JButton();
         LabelVenta_Paginas = new javax.swing.JLabel();
+        LabelVenta_IngresosVt = new javax.swing.JLabel();
         jPanel86 = new javax.swing.JPanel();
         TabbedPaneCliente4 = new javax.swing.JTabbedPane();
         jPanel87 = new javax.swing.JPanel();
@@ -162,7 +163,6 @@ public class Sistema extends javax.swing.JFrame {
         LabelCliente_Nid8 = new javax.swing.JLabel();
         LabelVenta_IngresoIni = new javax.swing.JLabel();
         LabelCliente_Nid9 = new javax.swing.JLabel();
-        LabelVenta_IngresosVt = new javax.swing.JLabel();
         LabelCliente_Nid11 = new javax.swing.JLabel();
         LabelVenta_IngresoTotal = new javax.swing.JLabel();
         ButtonVenta_Cobrar = new javax.swing.JButton();
@@ -728,6 +728,11 @@ public class Sistema extends javax.swing.JFrame {
         jLabel44.setText("Buscar");
 
         TextFieldVentas_BuscarCodigo.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        TextFieldVentas_BuscarCodigo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                TextFieldVentas_BuscarCodigoActionPerformed(evt);
+            }
+        });
         TextFieldVentas_BuscarCodigo.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 TextFieldVentas_BuscarCodigoKeyPressed(evt);
@@ -857,7 +862,7 @@ public class Sistema extends javax.swing.JFrame {
             .addGroup(jPanel78Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel78Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane15, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 804, Short.MAX_VALUE)
+                    .addComponent(jScrollPane15, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 850, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel78Layout.createSequentialGroup()
                         .addComponent(jLabel45)
                         .addGap(12, 12, 12)
@@ -897,7 +902,7 @@ public class Sistema extends javax.swing.JFrame {
         jPanel79.setLayout(jPanel79Layout);
         jPanel79Layout.setHorizontalGroup(
             jPanel79Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 816, Short.MAX_VALUE)
+            .addGap(0, 874, Short.MAX_VALUE)
         );
         jPanel79Layout.setVerticalGroup(
             jPanel79Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -958,6 +963,10 @@ public class Sistema extends javax.swing.JFrame {
         LabelVenta_Paginas.setBackground(new java.awt.Color(70, 106, 124));
         LabelVenta_Paginas.setText("Paaginas");
 
+        LabelVenta_IngresosVt.setBackground(new java.awt.Color(70, 106, 124));
+        LabelVenta_IngresosVt.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        LabelVenta_IngresosVt.setText(".");
+
         javax.swing.GroupLayout jPanel77Layout = new javax.swing.GroupLayout(jPanel77);
         jPanel77.setLayout(jPanel77Layout);
         jPanel77Layout.setHorizontalGroup(
@@ -982,28 +991,35 @@ public class Sistema extends javax.swing.JFrame {
                                 .addComponent(LabelCliente_Nombre27, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(272, 272, 272)
                                 .addComponent(LabelVenta_Paginas, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(LabelVenta_IngresosVt)
+                        .addGap(150, 150, 150)))
                 .addContainerGap())
         );
         jPanel77Layout.setVerticalGroup(
             jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel77Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(TabbedPaneCliente3)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addComponent(TabbedPaneCliente3, javax.swing.GroupLayout.DEFAULT_SIZE, 346, Short.MAX_VALUE)
+                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel77Layout.createSequentialGroup()
-                        .addComponent(LabelCliente_Nombre27)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(SpinnerPaginas_Ventas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel77Layout.createSequentialGroup()
+                                .addComponent(LabelCliente_Nombre27)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(SpinnerPaginas_Ventas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel77Layout.createSequentialGroup()
+                                .addComponent(LabelVenta_Paginas)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(ButtonVentas_Paginas2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(ButtonVentas_Paginas1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(ButtonVentas_Paginas3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(ButtonVentas_Paginas4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel77Layout.createSequentialGroup()
-                        .addComponent(LabelVenta_Paginas)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel77Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(ButtonVentas_Paginas2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ButtonVentas_Paginas1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ButtonVentas_Paginas3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(ButtonVentas_Paginas4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(30, 30, 30)
+                        .addComponent(LabelVenta_IngresosVt, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
 
@@ -1082,7 +1098,7 @@ public class Sistema extends javax.swing.JFrame {
                             .addComponent(LabelVentas_Cambio, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(LabelCliente_Nid6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(LabelCliente_Nid7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 189, Short.MAX_VALUE))))
+                        .addGap(0, 178, Short.MAX_VALUE))))
         );
         jPanel87Layout.setVerticalGroup(
             jPanel87Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1105,7 +1121,7 @@ public class Sistema extends javax.swing.JFrame {
                 .addComponent(LabelCliente_Nid6)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(LabelCliente_Nid7)
-                .addContainerGap(100, Short.MAX_VALUE))
+                .addContainerGap(77, Short.MAX_VALUE))
         );
 
         TabbedPaneCliente4.addTab("Ventas de productos", jPanel87);
@@ -1123,11 +1139,7 @@ public class Sistema extends javax.swing.JFrame {
 
         LabelCliente_Nid9.setBackground(new java.awt.Color(70, 106, 124));
         LabelCliente_Nid9.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
-        LabelCliente_Nid9.setText("Ingresos de ventas");
-
-        LabelVenta_IngresosVt.setBackground(new java.awt.Color(70, 106, 124));
-        LabelVenta_IngresosVt.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        LabelVenta_IngresosVt.setText("0.00");
+        LabelCliente_Nid9.setText(".");
 
         LabelCliente_Nid11.setBackground(new java.awt.Color(70, 106, 124));
         LabelCliente_Nid11.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
@@ -1148,10 +1160,9 @@ public class Sistema extends javax.swing.JFrame {
                     .addGroup(jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addComponent(LabelVenta_IngresoIni, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(LabelCliente_Nid9, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(LabelVenta_IngresosVt, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(LabelCliente_Nid11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(LabelVenta_IngresoTotal, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 154, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(201, Short.MAX_VALUE))
+                .addContainerGap(190, Short.MAX_VALUE))
         );
         jPanel80Layout.setVerticalGroup(
             jPanel80Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1162,13 +1173,11 @@ public class Sistema extends javax.swing.JFrame {
                 .addComponent(LabelVenta_IngresoIni)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(LabelCliente_Nid9)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(LabelVenta_IngresosVt)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(37, 37, 37)
                 .addComponent(LabelCliente_Nid11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(LabelVenta_IngresoTotal)
-                .addContainerGap(194, Short.MAX_VALUE))
+                .addContainerGap(162, Short.MAX_VALUE))
         );
 
         TabbedPaneCliente4.addTab("Ingresos", jPanel80);
@@ -1213,7 +1222,7 @@ public class Sistema extends javax.swing.JFrame {
             jPanel86Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel86Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(TabbedPaneCliente4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(TabbedPaneCliente4, javax.swing.GroupLayout.DEFAULT_SIZE, 368, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
                 .addGroup(jPanel86Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(ButtonVenta_Cobrar)
@@ -4345,17 +4354,6 @@ public class Sistema extends javax.swing.JFrame {
         jPanel66.setBackground(new java.awt.Color(255, 255, 255));
         jPanel66.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        Table_Productos.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {},
-                {},
-                {},
-                {}
-            },
-            new String [] {
-
-            }
-        ));
         Table_Productos.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Table_ProductosMouseClicked(evt);
@@ -4589,7 +4587,7 @@ public class Sistema extends javax.swing.JFrame {
         });
 
         labelProducto_Categoria.setBackground(new java.awt.Color(70, 106, 124));
-        labelProducto_Categoria.setText("Categoria");
+        labelProducto_Categoria.setText("Marca");
 
         TextFieldProducto_Categoria.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         TextFieldProducto_Categoria.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -5804,7 +5802,7 @@ public class Sistema extends javax.swing.JFrame {
         buttonGroup1.add(RadioButton_Lempira);
         RadioButton_Lempira.setFont(new java.awt.Font("Dialog", 1, 14)); // NOI18N
         RadioButton_Lempira.setText("MX.");
-        
+
 
         jLabel6.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(70, 106, 124));
@@ -7810,6 +7808,10 @@ public class Sistema extends javax.swing.JFrame {
     private void TextFieldVentas_BuscarCodigoKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_TextFieldVentas_BuscarCodigoKeyPressed
         valueVenta = true;
     }//GEN-LAST:event_TextFieldVentas_BuscarCodigoKeyPressed
+
+    private void TextFieldVentas_BuscarCodigoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TextFieldVentas_BuscarCodigoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_TextFieldVentas_BuscarCodigoActionPerformed
 
     // </editor-fold>
     /**
