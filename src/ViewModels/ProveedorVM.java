@@ -384,7 +384,7 @@ public class ProveedorVM extends Objectos {
             _mensual = proveedor.getMensual();
             if (_formaPago == null || _mensual.equals(0.0)) {
                 _label.get(24).setText("Establezca una forma de pago");
-                _label.get(24).setForeground(Color.RED);
+                _label.get(24).setForeground(Color.WHITE);
             } else {
                 var forma = _formaPago.equals("Q") ? "Cuotas quincenales " : "Cuotas por mes ";
                 _label.get(24).setText(forma);
@@ -402,7 +402,7 @@ public class ProveedorVM extends Objectos {
         cuotas1 = value.intValue();
         if (cuotas1 == 0) {
             _label.get(12).setText("Ingrese las cuotas a pagar");
-            _label.get(12).setForeground(Color.RED);
+            _label.get(12).setForeground(Color.WHITE);
         } else {
             if (!_textField.get(4).getText().isEmpty()) {
                 _label.get(12).setText("Ingrese el pago");

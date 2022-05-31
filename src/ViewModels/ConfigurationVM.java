@@ -123,7 +123,7 @@ public class ConfigurationVM extends Consult {
     public void RegistrarIntereses() {
         if (_textField.get(0).getText().equals("")) {
             _label.get(0).setText("Ingrese el interés");
-            _label.get(0).setForeground(Color.RED);
+            _label.get(0).setForeground(Color.WHITE);
             _textField.get(0).requestFocus();
         } else {
             if (_radio.get(2).isSelected()) {
@@ -149,7 +149,7 @@ public class ConfigurationVM extends Consult {
                 }
             } else {
                 _label.get(0).setText("Seleccione la opcion intereses");
-                _label.get(0).setForeground(Color.RED);
+                _label.get(0).setForeground(Color.WHITE);
             }
         }
     }
